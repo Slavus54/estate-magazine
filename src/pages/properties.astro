@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Properties from '../components/Properties'
+import PropertiesComponent from '../components/Properties'
 import {TOWNS_API_URL} from '../env/env'
 
 const response = await fetch(TOWNS_API_URL)
@@ -9,5 +9,5 @@ const towns = await response.json()
 ---
 
 <Layout folderTitle='Properties'>
-    <Properties towns={towns} client:load />
+    <PropertiesComponent towns={towns} client:load />
 </Layout>
