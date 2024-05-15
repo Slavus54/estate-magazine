@@ -1,0 +1,13 @@
+---
+//@ts-ignore
+import {Datus} from 'datus.js'
+import Layout from '../layouts/Layout.astro'
+
+const datus = new Datus()
+---
+
+<Layout folderTitle='Estate Magazine'>
+	<h2>Real Estate Magazine</h2>
+
+	<p class='pale'>Current Time: {datus.timestamp()}</p>
+</Layout>

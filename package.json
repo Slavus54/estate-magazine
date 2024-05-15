@@ -1,0 +1,26 @@
+{
+  "name": "estate-magazine",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "author": "Slavus54",
+  "dependencies": {
+    "@astrojs/check": "^0.6.0",
+    "@astrojs/react": "^3.3.4",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.8.3",
+    "axios": "^1.6.8",
+    "centum.js": "^2.1.0",
+    "datus.js": "^1.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

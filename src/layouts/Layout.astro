@@ -1,0 +1,28 @@
+---
+import Navbar from '../components/Navbar'
+import '../styles/global.css'
+
+interface Props {
+	folderTitle: string
+}
+
+const {folderTitle} = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<title>{folderTitle}</title>
+	</head>
+	<body>
+		<div class='main'>
+			<Navbar />
+			<slot />
+		</div>
+	</body>
+</html>

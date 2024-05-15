@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Surikov's Maison",
+        "category": "house",
+        "square": 256,
+        "region": "Novosibirsk",
+        "cost": 5.4e6,
+        "image": "https://avatars.dzeninfra.ru/get-zen_doc/1639101/pub_5df7137efe289100b094e38b_5df716e70ce57b00aedc4df5/scale_1200"
+    },
+    {
+        "id": 2,
+        "title": "Flat on GUM",
+        "category": "flat",
+        "square": 48,
+        "region": "Novosibirsk",
+        "cost": 3.1e6,
+        "image": "https://i7.photo.2gis.com/images/geo/1/140737500257835_7c8f.jpg"
+    }
+]

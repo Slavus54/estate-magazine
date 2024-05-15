@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Property from '../../components/Property'
+import properties from '../../env/properties.json'
+import {type PropertyType} from '../../env/types'
+
+export const getStaticPaths = () => {
+    return properties.map(property => ({
+        params: {id: property.id.toString()},
+        props: {property}
+    }))
+}
+
+interface Props {
+    property: PropertyType
+}
+
+const {property} = Astro.props as Props
+
+---
+
+<Layout folderTitle='Property'>    
+    <Property property={property} />
+</Layout>
